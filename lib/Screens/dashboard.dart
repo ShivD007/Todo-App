@@ -28,7 +28,10 @@ class _DashboardState extends State<Dashboard> {
         child: Column(
           children: [
             Container(
-              padding: EdgeInsets.all(10),
+              padding: EdgeInsets.only(
+                left: 10,
+                top: 20,
+              ),
               width: MediaQuery.of(context).size.width,
               height: MediaQuery.of(context).size.height * .15,
               // decoration: BoxDecoration(border: Border.all(width: 1)),
